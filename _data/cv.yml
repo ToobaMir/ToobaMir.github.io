@@ -1,9 +1,6 @@
 cv:
   name: Tooba Mir
-  label: BS Bioinformatics student
   email: toobamir10@gmail.com
-  image: ""
-  summary: Final-year BS Bioinformatics student at COMSATS University Islamabad working on machine learning and AI for healthcare, including privacy-preserving clinical RAG systems and medical imaging.
 
   social_networks:
     - network: GitHub
