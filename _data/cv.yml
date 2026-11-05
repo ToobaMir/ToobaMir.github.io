@@ -1,0 +1,194 @@
+cv:
+  name: Tooba Mir
+  label: BS Bioinformatics student
+  email: toobamir10@gmail.com
+  image: ""
+  summary: Final-year BS Bioinformatics student at COMSATS University Islamabad working on machine learning and AI for healthcare, including privacy-preserving clinical RAG systems and medical imaging.
+
+  social_networks:
+    - network: GitHub
+      username: ToobaMir
+    - network: LinkedIn
+      username: tooba-mir
+
+  sections:
+    Education:
+      - institution: COMSATS University Islamabad
+        location: Islamabad, Pakistan
+        url: https://www.comsats.edu.pk/
+        area: Bioinformatics
+        studyType: BS
+        start_date: 2023-02
+        end_date: 2027-01
+        score: "GPA 3.98/4.0, Class Rank 1"
+        courses: "Artificial Intelligence, Data Structures, OOP, Software Development, Database Development, Linux, Statistics & Probability, Statistical Methods in Biology, Discrete Mathematics, Calculus, Bioinformatics Scripting, Bioinformatics Analysis, Modern Programming Languages, Genetics, Genomics"
+
+    Experience:
+      - company: Flourish Lab, McMaster University
+        position: Mitacs Globalink Research Intern
+        location: Hamilton, Ontario, Canada
+        start_date: 2026-06
+        end_date: present
+        summary: "Advisor: Dr. Rohan D'Souza"
+        highlights:
+          - "Co-develop features for **Hey Mama!**, a clinical maternal and postpartum health app affiliated with Hamilton Health Sciences, delivering timely, trustworthy guidance to new mothers while keeping patient data private."
+          - "Engineered its **AI companion feature** as a **fully local, privacy-preserving RAG pipeline** over **170** clinical guidelines (LiteParse, ChromaDB, LangChain, Ollama), grounding answers in guidelines with no patient data leaving local infrastructure."
+          - "Benchmarked LLMs and embedding models, evaluating retrieval across **30 clinician-style questions** (**87% Hit@5**) and comparing inference speed between 1B- and 3B-parameter models."
+
+      - company: Medical Imaging and Diagnostic Lab, National Center of Artificial Intelligence
+        position: AI Research Intern
+        location: Pakistan
+        start_date: 2025-07
+        end_date: 2025-10
+        summary: "Advisor: Dr. Tehseen Zia"
+        highlights:
+          - "Led a team of **4** fellow interns on breast cancer classification; conducted a literature review of **50+ papers** to scope the project."
+          - "Evaluated **CNN architectures** and ViT on the **VinDr-Mammo dataset** and selected a **DenseNet121** pipeline based on comparative performance."
+          - "Maintained project documentation and reported progress in daily scrum meetings with supervisors."
+
+      - company: ChemAware, COMSATS University Islamabad
+        position: Undergraduate Research Assistant
+        location: Pakistan
+        start_date: 2025-04
+        end_date: 2026-03
+        summary: "Advisor: Dr. Saira Amir"
+        highlights:
+          - "Contributed to **ChemAware**, a mobile health informatics app funded by the **National Incubation Center**."
+          - "Trained and supervised **10 interns** in annotation protocols and managed dataset curation, producing a **10,000-sample labeled dataset** for ML training and validation."
+          - "Beta-tested the mobile app and reported bugs to the development team to improve reliability and user experience."
+
+      - company: COMSATS University Islamabad
+        position: Teaching Assistant
+        location: Islamabad, Pakistan
+        start_date: 2026-09
+        end_date: present
+        highlights:
+          - "**Introduction to Bioinformatics** (Dr. Saira Amir): Author step-by-step lab manuals with test cases and expected outputs for every exercise, enabling **40 students** to self-correct and minimize in-class troubleshooting."
+          - "**Programming for Artificial Intelligence** (Mr. Umar Iqbal): Facilitate instruction for **70 students**, holding office hours and grading assessments."
+
+      - company: Google Developer Groups on Campus, COMSATS University Islamabad
+        position: Technical Lead
+        location: Islamabad, Pakistan
+        start_date: 2025-09
+        end_date: 2026-02
+        highlights:
+          - "Taught programming to **50+ students** across 2 campuses and produced a YouTube playlist of C fundamentals in Urdu to improve accessibility."
+          - "Co-organized **3 inter-university coding events**, drawing **500+ attendees**."
+
+    Publications:
+      - title: "Hey Mama!: Building an Evidence-Informed Digital Platform for Post-Pregnancy Care"
+        authors:
+          - "Tooba Mir*"
+          - "Vedha Viyas Thilagarajan*"
+          - "et al."
+          - "Rohan D'Souza"
+        publisher: XXVI FIGO World Congress of Gynecology and Obstetrics (FIGO Montréal 2027)
+        releaseDate: 2027
+        summary: "Abstract under review. *Co-first authors."
+
+      - title: "Beyond ChatGPT: A Clinical AI That Never Leaves the Building"
+        authors:
+          - Tooba Mir
+        publisher: McMaster Children's Hospital, Canada
+        releaseDate: 2026-09
+        summary: Oral presentation delivered to medical students and physicians.
+
+      - title: "Artificial Intelligence and Machine Learning for Multi-Omics-Based Biological Age Prediction: A Scoping Review of Methods, Validation and Research Gaps"
+        authors:
+          - Maryam Naveed
+          - Sana Mohsin
+          - Hira Ilyas
+          - Mutahira Alam
+          - Tooba Mir
+          - Raniya Yaqub
+          - Saira Amir
+        publisher: Biogerontology (Springer Nature)
+        releaseDate: 2026
+        summary: Manuscript under review.
+
+    Projects:
+      - name: Two-Stage Multi-View DenseNet121 for Mammogram Classification
+        url: https://github.com/ToobaMir/Densenet-for-Mammogram-Classification
+        summary: "Python, PyTorch, Medical Imaging"
+        highlights:
+          - "Built a two-stage multi-view DenseNet121 pipeline on VinDr-Mammo (**4,750 studies, 9,499 paired CC/MLO breast samples**) mirroring the radiologist workflow: Stage 1 screens normal (BI-RADS 1) vs. abnormal (2-6), Stage 2 separates benign (2-3) from suspicious or malignant findings (4-6)."
+          - "Compared ResNet, DenseNet, VGG, and ViT; trained on a **50/50** undersampled set and tested on natural-distribution held-out sets (1,426 and 470 samples): Stage 1 sensitivity 62.6% (F1 0.563), Stage 2 sensitivity 50.7% (F1 0.455)."
+
+      - name: AI Maternal Health Assistant (AMHA)
+        url: https://github.com/ToobaMir/Maternal-Health-Assistant
+        summary: "Google Gemini API, React, JavaScript, HTML, CSS, Vercel"
+        highlights:
+          - "Designed, built, and deployed an **end-to-end AI maternal health assistant** supporting **English, Urdu, and Roman Urdu**, incorporating text-to-speech for pregnancy-related guidance; tested with **10 users** across dozens of topics."
+          - "Addressed maternal health gaps in Pakistan (5M+ pregnancies annually, doctor-to-patient ratio of 1:1300)."
+
+      - name: "Cell Analysis in R: From Gene Data to Machine Learning"
+        url: https://github.com/ToobaMir/R-Project
+        summary: "R, Seurat, caret, kNN"
+        highlights:
+          - "BIO312 course project: analyzed 10x Genomics PBMC 1k scRNA-seq data with Seurat (normalization, 2,000 highly variable genes, PCA, UMAP) and identified **8 cell clusters**, assigning T-cell (CD3D), B-cell (MS4A1), and monocyte-like (VCAN) populations via marker genes."
+          - "Trained a kNN classifier (caret) on PCA features using a stratified **70/30** split, reaching **96.82% accuracy** (kappa = 0.96) on **220 held-out cells**."
+
+    Awards:
+      - title: Mitacs Globalink Research Internship Award (CAD $8,800)
+        authors:
+          - Mitacs
+        date: 2026
+        awarder: Mitacs
+
+      - title: 3rd Place, TechNisaHacks 2026
+        authors:
+          - TechNisaHacks
+        date: 2026
+        awarder: TechNisaHacks
+        summary: Toronto
+
+      - title: 2nd Place, Web Development Competition 2025
+        authors:
+          - Google Developer Groups on Campus
+        date: 2025
+        awarder: Google Developer Groups on Campus
+
+      - title: Dean's Certificate of Merit (7x)
+        authors:
+          - COMSATS University Islamabad
+        awarder: COMSATS University Islamabad
+
+      - title: Highest GPA in Cohort
+        authors:
+          - COMSATS University Islamabad
+        awarder: COMSATS University Islamabad
+
+      - title: Prime Minister's Laptop Scheme Awardee for Academic Excellence
+        authors:
+          - Government of Pakistan
+        awarder: Government of Pakistan
+
+    Skills:
+      - name: Languages & Databases
+        icon: fa-solid fa-code
+        keywords: "Python, R, C/C++, JavaScript, HTML/CSS, SQL (PostgreSQL), MongoDB"
+
+      - name: Developer Tools
+        icon: fa-solid fa-terminal
+        keywords: "Git, VS Code, Visual Studio, Linux, Shell Scripting"
+
+      - name: Libraries
+        icon: fa-solid fa-cubes
+        keywords: "PyTorch, scikit-learn, NumPy, pandas"
+
+      - name: Bioinformatics
+        icon: fa-solid fa-dna
+        keywords: "Biopython, PCA, UMAP, graph-based clustering, marker-gene analysis"
+
+      - name: AI/ML
+        icon: fa-solid fa-brain
+        keywords: "Deep learning, image classification, RAG, LangChain, ChromaDB, Ollama, LLM-based applications"
+
+    Certificates:
+      - name: "Supervised Machine Learning: Regression and Classification"
+        issuer: DeepLearning.AI & Stanford Online
+        icon: fa-solid fa-certificate
+
+      - name: Principles of Clinical Research
+        issuer: NIH
+        icon: fa-solid fa-certificate

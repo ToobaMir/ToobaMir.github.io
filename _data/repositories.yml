@@ -1,0 +1,9 @@
+github_users:
+  - ToobaMir
+
+repo_description_lines_max: 2
+
+github_repos:
+  - ToobaMir/Densenet-for-Mammogram-Classification
+  - ToobaMir/Maternal-Health-Assistant
+  - ToobaMir/R-Project
