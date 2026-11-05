@@ -7,7 +7,7 @@ subtitle: Bioinformatics &middot; Machine Learning &middot; AI for Healthcare
 profile:
   align: right
   # To add a photo: upload it to assets/img/ (e.g. prof_pic.jpg) and remove the "#" on the next line.
-  # image: prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: false
   more_info: >
     <p>BS Bioinformatics, COMSATS University Islamabad</p>
